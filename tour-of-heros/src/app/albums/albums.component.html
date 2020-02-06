@@ -1,0 +1,6 @@
+<div class="heroes">
+    <div *ngFor="let album of albums" (click)="onSelect(album)" class="container">
+        <div class="badge"><div class="number">{{album.id}}</div>{{album.name}} </div>
+    </div>
+</div>
+<app-album-details [selectAlbum]="selectAlbum"></app-album-details>

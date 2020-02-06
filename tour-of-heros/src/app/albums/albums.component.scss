@@ -1,0 +1,20 @@
+.badge
+{
+    min-height: 10px;
+    background-color: lightgray;
+    margin: 4px;
+    width: 100px;
+
+    .number {
+        display: inline-block;
+        border-radius: 10px 0 0 10px;
+        width: 20px;
+        background-color: lightsalmon;
+    }
+
+}
+
+
+.badge:hover{
+    background-color: lightblue;
+}

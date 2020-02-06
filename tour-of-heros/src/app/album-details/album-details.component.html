@@ -1,0 +1,9 @@
+<div *ngIf="selectAlbum">
+        <h2>{{selectAlbum.name | uppercase}} Details</h2>
+        <div><span>id: </span>{{selectAlbum.id}}</div>
+        <div>
+            <label>name:
+                <input [(ngModel)]="selectAlbum.name" placeholder="name" />
+            </label>
+        </div>
+    </div>
